@@ -1,0 +1,34 @@
+Primary Key/Foreign Key
+=======================
+Primary Keys sind generell nur den _id's vorbehalten. 
+Um eine Verknüpfung herzustellen wird wie in SQL der Wert aus _id in einem Feld gespeichert.
+
+Indizes
+=======
+db.collection.createIndex({"key":"value"}, {unique: true})
+
+
+Funktionen
+==========
+db.collection.insert
+db.collection.insert_one
+db.collection.insert_many
+
+db.collection.find()
+db.collection.findOne()
+
+
+
+Syntax
+======
+
+
+Views
+=====
+
+
+Trigger
+=======
+
+
+
