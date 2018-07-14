@@ -1,11 +1,8 @@
 language: python
-  #Python-Versionen
-  python:
-    - "2.7"
-    - "3.6"
-  #Requirements installieren
-  install:
-  - pip install -r requirements.txt
-  #Start-Script
-  script:
-    - gui
+python:
+  - "2.7"
+  - "3.6"
+install:
+- pip install -r requirements.txt
+script:
+  - gui
