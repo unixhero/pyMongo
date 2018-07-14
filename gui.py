@@ -31,7 +31,6 @@ class WindowClient(QMainWindow):
         navigation.addAction(insert)
         navigation.addAction(update)
         navigation.addAction(delete)
-        self.form_get()
 
         # Anzeigen der Form
         self.show()
