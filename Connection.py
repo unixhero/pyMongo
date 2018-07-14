@@ -4,7 +4,7 @@ from pymongo import MongoClient
 class Connection:
     client = None
 
-    def __init__(self, server='localhost', port=27017, dbname='Putin'):
+    def __init__(self, server='localhost', port=27017, dbname='test'):
         self.dbServer = server
         self.dbPort = port
         self.client = MongoClient(self.dbServer, self.dbPort)
